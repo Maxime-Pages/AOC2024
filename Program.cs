@@ -8,8 +8,8 @@ class Runner
     const string BasePath = "../../.././Inputs/Day";
     static void Main()
     {
-        Day1 day1 = new();
-        Console.WriteLine(day1.Solve(GetInput(1)));
+        Day2 day = new();
+        Console.WriteLine(day.SolvePart2(GetInput(2)));
     }
 
     static string GetInput(int day)
